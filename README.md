@@ -30,7 +30,7 @@
 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/sayanoops/portfolio-tracker.git
+git clone https://github.com/sayanoops/Portfolio-Tracker.git
 ```
 or download the zip file from the repository.
 
@@ -80,7 +80,7 @@ npm run dev
 (If your limit is exceeded, you will receive a response with status code 429.)
 
 ## Link to the deployed project:
-https://portfolio-tracker.vercel.app/
+https://portfolio-tracker-omega.vercel.app/
 
 ## finnhub.io API documentation:
 https://finnhub.io/docs/api/
