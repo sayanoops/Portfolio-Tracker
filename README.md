@@ -71,12 +71,12 @@ npm run dev
 ## Assumptions and limitations:
 
 ### System Requirements:
--Modern web browser with JavaScript enabled and WebSocket support for real-time updates.
--Internet connection required for real-time stock updates.
+- Modern web browser with JavaScript enabled and WebSocket support for real-time updates.
+- Internet connection required for real-time stock updates.
 
 ### Performance Limitations:
--Stock price updates limited to 60-second intervals
--On top of all plan's limit, there is a 30 API calls/second limit.
+- Stock price updates limited to 60-second intervals
+- On top of all plan's limit, there is a 30 API calls/second limit.
 (If your limit is exceeded, you will receive a response with status code 429.)
 
 ## Link to the deployed project:
