@@ -71,8 +71,8 @@ npm run dev
 ## Assumptions and limitations:
 
 ### System Requirements:
--Modern web browser with JavaScript enabled and WebSocket support for real-time updates
--Internet connection required for real-time stock updates
+-Modern web browser with JavaScript enabled and WebSocket support for real-time updates.
+-Internet connection required for real-time stock updates.
 
 ### Performance Limitations:
 -Stock price updates limited to 60-second intervals
