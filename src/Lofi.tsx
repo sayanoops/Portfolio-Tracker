@@ -30,7 +30,7 @@ export default function Lofi() {
     <div>
       <audio
         ref={audioRef}
-        src="/public/lofi.mp3"
+        src="lofi.mp3"
         loop
         autoPlay
       />
