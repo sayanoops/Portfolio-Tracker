@@ -8,6 +8,7 @@ import { Stock } from './types';
 import { LogOut,Linkedin } from 'lucide-react';
 import { FaGithub } from "react-icons/fa";
 import { Session } from '@supabase/supabase-js';
+import Lofi from './Lofi';
 
 function App() {
   const [session, setSession] = useState<Session | null>(null);
@@ -67,16 +68,17 @@ function App() {
 
   return (
     <div className="min-h-screen bg-hexa bg-no-repeat bg-cover">
-      <nav className="shadow-sm">
+      <nav>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">
             <div className="flex items-center">
               <h1 className="text-3xl font-extrabold text-gray-50">Welcome to my Portfolio Tracker, <span className='text-green-400'>{userFullName}</span></h1>
             </div>
+            <div className="relative top-3 left-48"><Lofi/></div>
             <div className="flex items-center">
               <button
                 onClick={handleSignOut}
-                className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-gray-700 bg-gray-100 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-gray-700 bg-gray-100 hover:bg-gray-200 focus:outline-none focus:ring-indigo-500"
               >
                 <LogOut className="h-5 w-5 mr-2"/>
                 Sign Out
